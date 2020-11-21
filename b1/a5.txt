@@ -1,0 +1,2 @@
+(a): find /usr/include -name *.h | wc
+(b): find /usr/include -name *.h -print0 | xargs -0 grep "^ *#include" | wc
