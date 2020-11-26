@@ -1,7 +1,6 @@
 namespace power
 {
-	//(a)
-	
+	//a
 	/**
 	* @brief: calculates q to the nth power iteratively
 	*
@@ -19,8 +18,7 @@ namespace power
 		return r;
 	}
 
-	//(b)(c)
-
+	//b, c
 	/**
 	* @brief: calculates q to the nth power recursively
 	*
@@ -32,7 +30,7 @@ namespace power
 	double recursive(double q, unsigned n)
 	{
 		if (n) {
-			double tmp { recursive(q, n / 2) };
+			double tmp{ recursive(q, n / 2) };
 			return (n % 2 ? q : 1) * tmp * tmp;
 		}
 		return 1;
