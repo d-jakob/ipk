@@ -4,7 +4,7 @@
 namespace power
 {
 	int iterative(int q, unsigned n);
-	int recursive(int q, unsigned n);
+	double recursive(double q, unsigned n);
 }
 
 #endif /* end of include guard: POWER_H_DHA1ROXG */

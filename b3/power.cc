@@ -29,10 +29,10 @@ namespace power
 	*
 	* @return: int
 	*/
-	int recursive(int q, unsigned n)
+	double recursive(double q, unsigned n)
 	{
 		if (n) {
-			int tmp { recursive(q, n / 2) };
+			double tmp { recursive(q, n / 2) };
 			return (n % 2 ? q : 1) * tmp * tmp;
 		}
 		return 1;
